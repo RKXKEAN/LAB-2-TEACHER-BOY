@@ -5,8 +5,8 @@ const char* ssid     = "KEAN";
 const char* password = "roykean19791"; 
 
 const char* ntpServer = "time.google.com";  
-const long  gmtOffset_sec = 7 * 3600;    // เปลี่ยน Time Zone ตรงนี้
-const int   daylightOffset_sec = 0;    
+const long  gmtOffset_sec = 1 * 3600;    // เปลี่ยน Time Zone ตรงนี้
+const int   daylightOffset_sec = 1 *3600;    
 
 void setup() {
     Serial.begin(115200);
